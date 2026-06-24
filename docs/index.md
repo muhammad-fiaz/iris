@@ -4,7 +4,7 @@ layout: home
 hero:
   name: Iris
   text: Native Rust Computer Vision
-  tagline: A fast computer vision library framework in Rust.
+  tagline: A fast computer vision library in pure Rust.
   image:
     src: /logo.svg
     alt: Iris Logo
@@ -15,6 +15,10 @@ hero:
     - theme: alt
       text: View on GitHub
       link: https://github.com/muhammad-fiaz/iris
+
+banner:
+  content: "Note: This project is still in active development. APIs and features may change before the first stable release."
+  type: warning
 
 features:
   - icon: 🦀
@@ -33,6 +37,6 @@ features:
     title: Cross-Platform Direct UI
     details: Easy GUI window creation, mouse callbacks, trackbars, and rendering backends supported by Zed's GPUI framework.
   - icon: 🎯
-    title: OpenCV-like Experience
-    details: Familiar API covering camera capture, drawing canvas, ArUco detection, optical flow, camera calibration, and segmentation.
+    title: Type-Safe & Memory-Safe
+    details: Built entirely in safe Rust — no unsafe code, no FFI bindings, no null pointers. Guaranteed memory safety and type safety at compile time.
 ---

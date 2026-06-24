@@ -4,6 +4,9 @@ description: "Quick start guide for Iris — install, load an image, apply Gauss
 keywords: ["getting started", "quick start", "install iris", "first project", "tutorial"]
 ---
 
+> [!NOTE]
+> This project is still in active development. APIs and features may change before the first stable release.
+
 # Getting Started
 
 To get started with **Iris**, install it in your project:

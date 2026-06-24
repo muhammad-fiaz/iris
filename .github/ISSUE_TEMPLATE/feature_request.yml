@@ -28,6 +28,6 @@ body:
     id: context
     attributes:
       label: Additional Context
-      description: Any other context, API design ideas, or links to OpenCV APIs.
+      description: Any other context, API design ideas, or references.
     validations:
       required: false

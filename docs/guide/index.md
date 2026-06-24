@@ -6,12 +6,12 @@ keywords: ["Iris", "what is iris", "rust computer vision", "burn framework", "CV
 
 # What is Iris?
 
-**Iris** is a fast computer vision library framework in Rust. It leverages the power of the **Burn** framework to execute GPU/CPU tensor computations cleanly and idiomatic, without relying on legacy C++ libraries like OpenCV or external dynamic loaders.
+**Iris** is a fast computer vision library written entirely in pure Rust. It leverages the **Burn** framework for GPU/CPU tensor computations — memory safe, type safe, with no external C/C++ dependencies.
 
 ## Key Goals
 
 1. **Pure Rust Ecosystem**: Keep dependencies clean, safe, and fully compiled under the Cargo toolchain.
-2. **Modern OpenCV Alternative**: Provide developers with a clean and familiar CV API (Image I/O, Filters, Gradients, Contour tracking, Cameras, Trackbars) using modern design patterns.
+2. **Familiar CV API**: Provide developers with a clean, modern API covering Image I/O, Filters, Gradients, Contour tracking, Cameras, Drawing, and Detection.
 3. **Deep Learning First**: Out-of-the-box loading of ONNX and Safetensors models, powered by Burn backends (WGPU, CUDA, Metal, Ndarray).
 4. **Multi-Threaded CPU Acceleration**: All computationally intensive CPU operations are parallelized using Rayon, allowing high throughput when not running on a GPU.
 

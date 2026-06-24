@@ -2,6 +2,9 @@
 
 # Iris
 
+> [!NOTE]
+> This project is still in active development. APIs and features may change before the first stable release.
+
 <a href="https://muhammad-fiaz.github.io/iris/"><img src="https://img.shields.io/badge/docs-muhammad--fiaz.github.io-blue" alt="Documentation"></a>
 <a href="https://www.rust-lang.org/"><img src="https://img.shields.io/badge/Rust-2024_Edition-orange.svg" alt="Rust Version"></a>
 <a href="https://github.com/muhammad-fiaz/iris"><img src="https://img.shields.io/github/stars/muhammad-fiaz/iris" alt="GitHub stars"></a>

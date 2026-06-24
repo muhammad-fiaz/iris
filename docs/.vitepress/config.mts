@@ -28,7 +28,7 @@ export const ADSENSE_CLIENT_ID = "ca-pub-2040560600290490";
 
 // SEO Keywords
 export const KEYWORDS =
-  "rust, computer vision, image processing, video processing, deep learning, burn framework, wgpu, cuda, machine learning, opencv alternative, rust-cv, image filtering, edge detection, camera calibration, iris, object detection, face recognition, QR code, optical flow, morphological operations, segmentation, contours, GPU acceleration";
+  "rust, computer vision, image processing, video processing, deep learning, burn framework, wgpu, cuda, machine learning, memory safe, type safe, rust-cv, image filtering, edge detection, camera calibration, iris, object detection, face recognition, QR code, optical flow, morphological operations, segmentation, contours, GPU acceleration";
 
 export default defineConfig({
   lang: "en-US",
