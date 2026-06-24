@@ -116,9 +116,7 @@ impl Gui {
 
         let path = format!("preview_{}.png", winname.replace(' ', "_"));
         image.save(&path)?;
-        println!(
-            "[GUI] Rendering frame in window '{winname}' (saved preview to '{path}')"
-        );
+        println!("[GUI] Rendering frame in window '{winname}' (saved preview to '{path}')");
         Ok(())
     }
 
@@ -175,9 +173,7 @@ impl Gui {
                     max_val: count,
                 },
             );
-            println!(
-                "[GUI] Trackbar '{trackbar_name}' created in window '{winname}'"
-            );
+            println!("[GUI] Trackbar '{trackbar_name}' created in window '{winname}'");
         }
         Ok(())
     }

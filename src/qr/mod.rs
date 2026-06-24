@@ -58,10 +58,7 @@ mod tests {
         let detector = QrDetector::default();
         let codes = detector.detect_and_decode(&img).unwrap();
         assert_eq!(codes.len(), 1);
-        assert_eq!(
-            codes[0].payload,
-            "https://muhammad-fiaz.github.io/iris"
-        );
+        assert_eq!(codes[0].payload, "https://muhammad-fiaz.github.io/iris");
         assert_eq!(codes[0].corners[2], Point::new(100, 100));
     }
 }

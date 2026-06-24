@@ -14,9 +14,8 @@ impl WeightLoader {
         path: impl AsRef<Path>,
         device: &B::Device,
     ) -> Result<std::collections::HashMap<String, Tensor<B, 2>>> {
-        let bytes = std::fs::read(&path).map_err(|e| {
-            IrisError::ModelLoad(format!("Failed to read safetensors file: {e}"))
-        })?;
+        let bytes = std::fs::read(&path)
+            .map_err(|e| IrisError::ModelLoad(format!("Failed to read safetensors file: {e}")))?;
 
         let st = safetensors::SafeTensors::deserialize(&bytes).map_err(|e| {
             IrisError::ModelLoad(format!("Safetensors deserialization failed: {e}"))
@@ -66,9 +65,8 @@ impl WeightLoader {
         device: &B::Device,
         expected_shape: [usize; 2],
     ) -> Result<Tensor<B, 2>> {
-        let bytes = std::fs::read(&path).map_err(|e| {
-            IrisError::ModelLoad(format!("Failed to read weight bin file: {e}"))
-        })?;
+        let bytes = std::fs::read(&path)
+            .map_err(|e| IrisError::ModelLoad(format!("Failed to read weight bin file: {e}")))?;
 
         // Expect flat f32 values
         let mut float_vals = vec![0.0f32; expected_shape[0] * expected_shape[1]];

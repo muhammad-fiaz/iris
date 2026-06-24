@@ -41,9 +41,7 @@ impl<B: Backend> Tracker<B> {
     /// Updates the tracker, finding the new location of the target in the frame.
     pub fn update(&mut self, _image: &Image<B>) -> Result<Rect<usize>> {
         let current = self.bbox.ok_or_else(|| {
-            crate::error::IrisError::Generic(
-                "Tracker not initialized. Call init first.".into(),
-            )
+            crate::error::IrisError::Generic("Tracker not initialized. Call init first.".into())
         })?;
 
         // Simulates a tiny random motion/update for demonstration

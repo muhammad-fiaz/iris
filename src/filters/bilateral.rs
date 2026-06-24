@@ -46,8 +46,10 @@ impl<B: Backend> Image<B> {
                                 for kx in -rad..=rad {
                                     let px = x as isize + kx;
                                     if px >= 0 && px < w as isize {
-                                        let neighbor_val = f64::from(flat_vals
-                                            [ch * h * w + (py as usize) * w + (px as usize)]);
+                                        let neighbor_val = f64::from(
+                                            flat_vals
+                                                [ch * h * w + (py as usize) * w + (px as usize)],
+                                        );
 
                                         // Space distance
                                         let r2 = (kx * kx + ky * ky) as f64;

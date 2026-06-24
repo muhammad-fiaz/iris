@@ -61,9 +61,7 @@ impl Morphology {
             for (x, val) in row.iter_mut().enumerate() {
                 *val = match shape {
                     MorphShape::Rect => 1,
-                    MorphShape::Cross => {
-                        u8::from(x == w / 2 || y == h / 2)
-                    }
+                    MorphShape::Cross => u8::from(x == w / 2 || y == h / 2),
                     MorphShape::Ellipse => {
                         let dx = x as f64 - xc;
                         let dy = y as f64 - yc;

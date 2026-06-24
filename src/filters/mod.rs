@@ -148,8 +148,9 @@ impl<B: Backend> Image<B> {
                                 let px = x as isize + kx;
                                 let px_clamped = px.clamp(0, w as isize - 1) as usize;
                                 let weight = kernel[(ky + rad) as usize][(kx + rad) as usize];
-                                blur_sum += f64::from(flat_vals[ch * h * w + py_clamped * w + px_clamped])
-                                    * weight;
+                                blur_sum +=
+                                    f64::from(flat_vals[ch * h * w + py_clamped * w + px_clamped])
+                                        * weight;
                             }
                         }
                         row[x] = blur_sum as f32;

@@ -87,9 +87,7 @@ impl<B: Backend> KMeans<B> {
     /// Predicts closest cluster assignments for inputs of shape [N, D].
     pub fn predict(&self, data: &Tensor<B, 2>) -> Result<Tensor<B, 1, Int>> {
         let centroids = self.centroids.as_ref().ok_or_else(|| {
-            IrisError::Generic(
-                "K-Means centroids are not initialized. Fit the model first.".into(),
-            )
+            IrisError::Generic("K-Means centroids are not initialized. Fit the model first.".into())
         })?;
 
         // points shape: [N, 1, D], centroids shape: [1, K, D]
