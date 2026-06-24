@@ -2,8 +2,6 @@
 
 # Iris
 
-> [!NOTE]
-> This project is still in active development. APIs and features may change before the first stable release.
 
 <a href="https://muhammad-fiaz.github.io/iris/"><img src="https://img.shields.io/badge/docs-muhammad--fiaz.github.io-blue" alt="Documentation"></a>
 <a href="https://www.rust-lang.org/"><img src="https://img.shields.io/badge/Rust-2024_Edition-orange.svg" alt="Rust Version"></a>
@@ -30,6 +28,9 @@
 A Rust-powered, cross-platform computer vision and deep learning library designed with a clean, modular, library-first architecture. Completely native with zero external C dependencies.
 
 **If you love `Iris`, make sure to give it a star!**
+
+> [!NOTE]
+> This project is still in active development. APIs and features may change before the first stable release.
 
 ---
 
