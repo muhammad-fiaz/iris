@@ -2,7 +2,7 @@
 title: "Inpainting Module Reference"
 description: "API reference for Iris inpainting — Telea Fast Marching Method for mask-based image inpainting."
 keywords: ["inpainting", "inpaint", "telea", "fast marching", "image restoration", "missing pixels"]
-canonical: "https://muhammad-fiaz.github.io/iris/api/inpaint"
+canonical: "https://muhammad-fiaz.github.io/iris-cv/api/inpaint"
 ---
 
 # Inpainting Module Reference

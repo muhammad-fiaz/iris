@@ -2,7 +2,7 @@
 title: "Photo Processing Reference"
 description: "API reference for Iris photo processing — NLM denoising and Mertens exposure fusion."
 keywords: ["photo", "denoising", "NLM", "non-local means", "exposure fusion", "Mertens", "HDR"]
-canonical: "https://muhammad-fiaz.github.io/iris/api/photo"
+canonical: "https://muhammad-fiaz.github.io/iris-cv/api/photo"
 ---
 
 # Photo Processing Reference

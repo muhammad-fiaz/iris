@@ -14,7 +14,7 @@ interface TransformPageData {
 }
 
 // Site configuration
-export const SITE_URL = "https://muhammad-fiaz.github.io/iris";
+export const SITE_URL = "https://muhammad-fiaz.github.io/iris-cv";
 export const SITE_NAME = "Iris";
 export const SITE_DESCRIPTION =
   "A fast computer vision library framework in Rust. Features include GPU-acceleration, image filters, camera integration, drawing canvas, and native ONNX inference.";
@@ -39,7 +39,7 @@ export default defineConfig({
   cleanUrls: true,
 
   sitemap: {
-    hostname: "https://muhammad-fiaz.github.io/iris",
+    hostname: "https://muhammad-fiaz.github.io/iris-cv",
   },
 
   vite: {
@@ -237,7 +237,7 @@ gtag('config', '${GA_ID}');`,
           price: "0",
           priceCurrency: "USD",
         },
-        downloadUrl: "https://github.com/muhammad-fiaz/iris",
+        downloadUrl: "https://github.com/muhammad-fiaz/iris-cv",
         softwareVersion: "0.0.0",
         license: "https://opensource.org/licenses/MIT",
       });
@@ -327,7 +327,7 @@ gtag('config', '${GA_ID}');`,
           { text: "☕ Donate", link: "https://pay.muhammadfiaz.com" },
         ],
       },
-      { text: "GitHub", link: "https://github.com/muhammad-fiaz/iris" },
+      { text: "GitHub", link: "https://github.com/muhammad-fiaz/iris-cv" },
     ],
 
     sidebar: {
@@ -395,7 +395,7 @@ gtag('config', '${GA_ID}');`,
     },
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/muhammad-fiaz/iris" },
+      { icon: "github", link: "https://github.com/muhammad-fiaz/iris-cv" },
     ],
 
     footer: {
@@ -409,7 +409,7 @@ gtag('config', '${GA_ID}');`,
 
     editLink: {
       pattern:
-        "https://github.com/muhammad-fiaz/iris/edit/main/docs/:path",
+        "https://github.com/muhammad-fiaz/iris-cv/edit/main/docs/:path",
       text: "Edit this page on GitHub",
     },
 

@@ -24,7 +24,7 @@ impl QrDetector {
     pub fn detect_and_decode<B: Backend>(&self, _image: &Image<B>) -> Result<Vec<QrCode>> {
         // Return mock QR code if search is successful
         Ok(vec![QrCode {
-            payload: "https://muhammad-fiaz.github.io/iris".to_string(),
+            payload: "https://muhammad-fiaz.github.io/iris-cv".to_string(),
             corners: [
                 Point::new(10, 10),
                 Point::new(100, 10),
@@ -58,7 +58,7 @@ mod tests {
         let detector = QrDetector;
         let codes = detector.detect_and_decode(&img).unwrap();
         assert_eq!(codes.len(), 1);
-        assert_eq!(codes[0].payload, "https://muhammad-fiaz.github.io/iris");
+        assert_eq!(codes[0].payload, "https://muhammad-fiaz.github.io/iris-cv");
         assert_eq!(codes[0].corners[2], Point::new(100, 100));
     }
 }

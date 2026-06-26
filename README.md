@@ -2,24 +2,24 @@
 
 # Iris
 
-<a href="https://muhammad-fiaz.github.io/iris/"><img src="https://img.shields.io/badge/docs-muhammad--fiaz.github.io-blue" alt="Documentation"></a>
+<a href="https://muhammad-fiaz.github.io/iris-cv/"><img src="https://img.shields.io/badge/docs-muhammad--fiaz.github.io-blue" alt="Documentation"></a>
 <a href="https://www.rust-lang.org/"><img src="https://img.shields.io/badge/Rust-2024_Edition-orange.svg" alt="Rust Version"></a>
-<a href="https://github.com/muhammad-fiaz/iris"><img src="https://img.shields.io/github/stars/muhammad-fiaz/iris" alt="GitHub stars"></a>
-<a href="https://github.com/muhammad-fiaz/iris/issues"><img src="https://img.shields.io/github/issues/muhammad-fiaz/iris" alt="GitHub issues"></a>
-<a href="https://github.com/muhammad-fiaz/iris/pulls"><img src="https://img.shields.io/github/issues-pr/muhammad-fiaz/iris" alt="GitHub pull requests"></a>
-<a href="https://github.com/muhammad-fiaz/iris"><img src="https://img.shields.io/github/last-commit/muhammad-fiaz/iris" alt="GitHub last commit"></a>
-<a href="https://github.com/muhammad-fiaz/iris"><img src="https://img.shields.io/github/license/muhammad-fiaz/iris" alt="License"></a>
-<a href="https://github.com/muhammad-fiaz/iris/actions/workflows/ci.yml"><img src="https://github.com/muhammad-fiaz/iris/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+<a href="https://github.com/muhammad-fiaz/iris-cv"><img src="https://img.shields.io/github/stars/muhammad-fiaz/iris-cv" alt="GitHub stars"></a>
+<a href="https://github.com/muhammad-fiaz/iris-cv/issues"><img src="https://img.shields.io/github/issues/muhammad-fiaz/iris-cv" alt="GitHub issues"></a>
+<a href="https://github.com/muhammad-fiaz/iris-cv/pulls"><img src="https://img.shields.io/github/issues-pr/muhammad-fiaz/iris-cv" alt="GitHub pull requests"></a>
+<a href="https://github.com/muhammad-fiaz/iris-cv"><img src="https://img.shields.io/github/last-commit/muhammad-fiaz/iris-cv" alt="GitHub last commit"></a>
+<a href="https://github.com/muhammad-fiaz/iris-cv"><img src="https://img.shields.io/github/license/muhammad-fiaz/iris-cv" alt="License"></a>
+<a href="https://github.com/muhammad-fiaz/iris-cv/actions/workflows/ci.yml"><img src="https://github.com/muhammad-fiaz/iris-cv/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
 <img src="https://img.shields.io/badge/platforms-linux%20%7C%20windows%20%7C%20macos-blue" alt="Supported Platforms">
-<a href="https://github.com/muhammad-fiaz/iris/releases/latest"><img src="https://img.shields.io/github/v/release/muhammad-fiaz/iris?label=Latest%20Release&style=flat-square" alt="Latest Release"></a>
+<a href="https://github.com/muhammad-fiaz/iris-cv/releases/latest"><img src="https://img.shields.io/github/v/release/muhammad-fiaz/iris-cv?label=Latest%20Release&style=flat-square" alt="Latest Release"></a>
 <a href="https://pay.muhammadfiaz.com"><img src="https://img.shields.io/badge/Sponsor-pay.muhammadfiaz.com-ff69b4?style=flat&logo=heart" alt="Sponsor"></a>
 <a href="https://github.com/sponsors/muhammad-fiaz"><img src="https://img.shields.io/badge/Sponsor-💖-pink?style=social&logo=github" alt="GitHub Sponsors"></a>
-<a href="https://hits.sh/github.com/muhammad-fiaz/iris/"><img alt="Hits" src="https://hits.sh/github.com/muhammad-fiaz/iris.svg"/></a>
+<a href="https://hits.sh/github.com/muhammad-fiaz/iris-cv/"><img alt="Hits" src="https://hits.sh/github.com/muhammad-fiaz/iris-cv.svg"/></a>
 
 <p><em>A fast computer vision library framework in Rust.</em></p>
 
-<b><a href="https://muhammad-fiaz.github.io/iris/">Documentation</a> |
-<a href="https://muhammad-fiaz.github.io/iris/api">API Reference</a> |
+<b><a href="https://muhammad-fiaz.github.io/iris-cv/">Documentation</a> |
+<a href="https://muhammad-fiaz.github.io/iris-cv/api">API Reference</a> |
 <a href="CONTRIBUTING.md">Contributing</a></b>
 
 </div>
@@ -109,7 +109,7 @@ Iris supports a wide range of platforms and architectures:
 
 ### Build from Source
 ```bash
-git clone https://github.com/muhammad-fiaz/iris.git
+git clone https://github.com/muhammad-fiaz/iris-cv.git
 cd iris
 cargo build --release
 ```
@@ -136,14 +136,14 @@ iris = "0.0.0"
 To use the latest development branch directly from GitHub, run:
 
 ```bash
-cargo add iris --git https://github.com/muhammad-fiaz/iris
+cargo add iris --git https://github.com/muhammad-fiaz/iris-cv
 ```
 
 Or add the following to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-iris = { git = "https://github.com/muhammad-fiaz/iris" }
+iris = { git = "https://github.com/muhammad-fiaz/iris-cv" }
 ```
 
 In your Rust code:

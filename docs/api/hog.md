@@ -2,7 +2,7 @@
 title: "HOG Descriptor Reference"
 description: "API reference for Iris HOG descriptor — Histogram of Oriented Gradients for feature extraction."
 keywords: ["HOG", "histogram of oriented gradients", "feature extraction", "pedestrian detection"]
-canonical: "https://muhammad-fiaz.github.io/iris/api/hog"
+canonical: "https://muhammad-fiaz.github.io/iris-cv/api/hog"
 ---
 
 # HOG Descriptor Reference

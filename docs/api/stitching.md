@@ -2,7 +2,7 @@
 title: "Image Stitching Reference"
 description: "API reference for Iris image stitching — homography-based panorama stitching with ORB features and RANSAC."
 keywords: ["stitching", "panorama", "homography", "RANSAC", "feature matching", "warping"]
-canonical: "https://muhammad-fiaz.github.io/iris/api/stitching"
+canonical: "https://muhammad-fiaz.github.io/iris-cv/api/stitching"
 ---
 
 # Image Stitching Reference

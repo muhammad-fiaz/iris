@@ -2,7 +2,7 @@
 title: "Kalman Filter Reference"
 description: "API reference for Iris Kalman filter — discrete linear Kalman filter for state estimation and tracking."
 keywords: ["kalman filter", "state estimation", "tracking", "prediction", "measurement"]
-canonical: "https://muhammad-fiaz.github.io/iris/api/kalman"
+canonical: "https://muhammad-fiaz.github.io/iris-cv/api/kalman"
 ---
 
 # Kalman Filter Reference

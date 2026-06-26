@@ -12,7 +12,7 @@ The Iris repository includes several complete examples showcasing key capabiliti
 
 ```bash
 # Clone the repository
-git clone https://github.com/muhammad-fiaz/iris.git
+git clone https://github.com/muhammad-fiaz/iris-cv.git
 cd iris
 
 # Run any example with the wgpu backend

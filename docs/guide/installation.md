@@ -19,14 +19,14 @@ cargo add iris
 To use the latest development branch directly from GitHub, run:
 
 ```bash
-cargo add iris --git https://github.com/muhammad-fiaz/iris
+cargo add iris --git https://github.com/muhammad-fiaz/iris-cv
 ```
 
 Or add the following to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-iris = { git = "https://github.com/muhammad-fiaz/iris" }
+iris = { git = "https://github.com/muhammad-fiaz/iris-cv" }
 ```
 
 ## Cargo Features
@@ -60,7 +60,7 @@ iris = { version = "0.0.0", default-features = false, features = ["wgpu", "paral
 ### Running Examples
 
 ```bash
-git clone https://github.com/muhammad-fiaz/iris.git
+git clone https://github.com/muhammad-fiaz/iris-cv.git
 cd iris
 cargo run --example canny --features wgpu
 ```

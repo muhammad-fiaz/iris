@@ -2,7 +2,7 @@
 title: "Stereo Vision Module Reference"
 description: "API reference for Iris stereo vision — block matching disparity computation."
 keywords: ["stereo", "disparity", "block matching", "SAD", "depth", "stereo vision"]
-canonical: "https://muhammad-fiaz.github.io/iris/api/stereo"
+canonical: "https://muhammad-fiaz.github.io/iris-cv/api/stereo"
 ---
 
 # Stereo Vision Module Reference

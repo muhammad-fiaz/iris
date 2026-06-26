@@ -18,7 +18,7 @@ cargo add iris
 Alternatively, to use the latest development version from GitHub, run:
 
 ```bash
-cargo add iris --git https://github.com/muhammad-fiaz/iris
+cargo add iris --git https://github.com/muhammad-fiaz/iris-cv
 ```
 
 ## Basic Example

@@ -1,16 +1,19 @@
 [package]
-name = "iris"
+name = "iris-cv"
 version = "0.0.0"
 edition = "2024"
 authors = ["Muhammad Fiaz <contact@muhammadfiaz.com>"]
 license = "MIT"
 description = "A fast computer vision library framework in Rust."
-repository = "https://github.com/muhammad-fiaz/iris"
-homepage = "https://muhammad-fiaz.github.io/iris"
-documentation = "https://docs.rs/iris"
+repository = "https://github.com/muhammad-fiaz/iris-cv"
+homepage = "https://muhammad-fiaz.github.io/iris-cv"
+documentation = "https://docs.rs/iris-cv"
 readme = "README.md"
 keywords = ["computer-vision", "image-processing", "deep-learning", "burn", "gpu"]
 categories = ["computer-vision", "image-processing", "machine-learning", "parser-implementations"]
+
+[lib]
+name = "iris"
 
 [dependencies]
 burn = { version = "0.21.0", features = ["std", "vision", "train"] }
